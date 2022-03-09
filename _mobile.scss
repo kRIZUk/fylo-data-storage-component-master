@@ -1,0 +1,69 @@
+@media only screen and (min-width: 300px) and (max-width: 850px) {
+    .main-site {
+        background-image: url(images/bg-mobile.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .main-site-background {
+        display: none !important;
+    }
+    .main-card-center {
+        flex-direction: column !important;
+        margin: 0px 25px;
+        overflow: hidden;
+        width: 100%;
+        .card-one {
+            padding: 35px !important;
+            margin-bottom: 20px;
+            img {
+                width: 135px !important;
+            }
+            .card-one-icons {
+                display: flex;
+                justify-content: flex-start;
+                .icon-one, .icon-two, .icon-three {
+                    margin: 0px !important;
+                    margin-right: 15px !important;
+                    padding: 5px !important;
+                }
+                .icon-two img, .icon-three img {
+                    width: 65% !important;
+                }
+                .icon-one img {
+                    width: 55% !important;
+                }
+            }
+        }
+        .card-two {
+            width: 100% !important;
+            margin: 0px !important;
+            overflow: hidden;
+            justify-content: center !important;
+            .card-two-head h1{
+                font-size: 14px;
+            }
+            .card-two-container {
+                padding: 35px 35px 60px 35px !important;
+                margin: 0px !important;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 850px) {
+    .card-two-little {
+        margin: 0 !important;
+        width: calc(100% - 50px) !important;
+        .card-two-white {
+            position: relative !important;
+            top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 9999;
+            border-radius: 10px 10px 10px 10px !important;
+        }
+        .triangle {
+            display: none;
+        }
+    }
+}
